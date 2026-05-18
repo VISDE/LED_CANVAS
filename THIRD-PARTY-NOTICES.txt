@@ -1,0 +1,96 @@
+Led Canvas Third-Party Notices
+==============================
+
+Status: draft inventory for the v0.2 alpha release. This file is not yet a
+complete legal notice bundle. Items marked "needs confirmation" must be resolved
+before public paid distribution.
+
+Led Canvas
+----------
+
+Led Canvas source, binaries, installer assets created for Led Canvas, and
+project-owned documentation are proprietary/all-rights-reserved except where a
+separate third-party license applies.
+
+SimHub SDK and Runtime Assemblies
+---------------------------------
+
+The project references SimHub SDK/runtime assemblies from a local SimHub SDK
+cache or installation. SimHub SDK DLLs and vendor binaries must not be committed
+to this release repository. The current installer package script copies Led
+Canvas plugin/UI binaries and selected Led Canvas assets, not SimHub SDK DLLs.
+
+License/redistribution status: needs local confirmation before any SimHub SDK or
+runtime assembly is bundled directly.
+
+Newtonsoft.Json and log4net
+---------------------------
+
+The project references Newtonsoft.Json and log4net through the local SimHub
+runtime/SDK path with Private=False. They are not directly copied by the current
+installer package script.
+
+If a future package redistributes either library directly, add the corresponding
+license texts and notices to this file and to the release package.
+
+Inno Setup
+----------
+
+Inno Setup is used as the installer compiler/shell. The compiler itself is not
+redistributed as part of Led Canvas. The official Inno Setup license permits use
+for commercial applications and asks for acknowledgement in product
+documentation when used to distribute a product.
+
+Project: https://jrsoftware.org/isinfo.php
+License: https://jrsoftware.org/files/is/license.txt
+
+Exo 2 Font
+----------
+
+License: SIL Open Font License, Version 1.1
+Copyright: Copyright 2013 The Exo 2 Project Authors
+
+JetBrains Mono Font
+-------------------
+
+License: SIL Open Font License, Version 1.1
+Copyright: Copyright 2020 The JetBrains Mono Project Authors
+
+Gojo Font
+---------
+
+License/redistribution status: needs local confirmation. No license file was
+found next to the bundled font in the private source repository during the
+2026-05-17 review.
+
+SAIBA-45 Font
+-------------
+
+License/redistribution status: needs local confirmation. No license file was
+found next to the bundled font in the private source repository during the
+2026-05-17 review.
+
+Effect Icons
+------------
+
+Status: Codex-generated UI memory-anchor assets for Led Canvas.
+
+Installer Branding Assets
+-------------------------
+
+Status: derived from user-provided/local Led Canvas logo BMP sources. Treat as
+Led Canvas project-owned branding unless ownership is later corrected.
+
+Pokornyi Engineering MCP Button Box Reference Image
+---------------------------------------------------
+
+License/redistribution status: needs confirmation before public paid
+distribution. The current package script copies the image if present.
+
+Future Account/Payment/Identity Providers
+-----------------------------------------
+
+If Led Canvas adds website accounts, Stripe billing, Discord sign-in, Google
+sign-in, or any hosted support/chat service, add their required notices, privacy
+links, trademark rules, and data processing references here or in the public
+legal pages.

@@ -1,0 +1,10 @@
+*.exe
+*.msi
+*.zip
+*.7z
+*.rar
+artifacts/
+dist/
+payload/
+install-lab/
+*.log
