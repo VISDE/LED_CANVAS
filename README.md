@@ -37,9 +37,11 @@ This alpha does not include:
 Public installers are downloaded from the
 [Releases](https://github.com/VISDE/LED_CANVAS/releases) page.
 
-The first public alpha is being prepared. Until `v0.2.0-alpha` appears in
-Releases with an attached `.exe` asset, there is no public installer download
-from this repository.
+Current alpha release:
+[v0.2.0-alpha](https://github.com/VISDE/LED_CANVAS/releases/tag/v0.2.0-alpha)
+
+Direct installer asset:
+[LedCanvasSetup-v0.2.0-alpha.exe](https://github.com/VISDE/LED_CANVAS/releases/download/v0.2.0-alpha/LedCanvasSetup-v0.2.0-alpha.exe)
 
 Do not download Led Canvas from mirrored installers, reposted files, or the
 automatic `Source code` archives.
@@ -47,8 +49,7 @@ automatic `Source code` archives.
 ## Installation
 
 1. Close SimHub.
-2. Download `LedCanvasSetup-v0.2.0-alpha.exe` from the GitHub Release asset when
-   the release is published.
+2. Download `LedCanvasSetup-v0.2.0-alpha.exe` from the GitHub Release asset.
 3. Verify the SHA256 hash shown in the release notes.
 4. Run the installer.
 5. If SimHub is not detected automatically, use the installer
@@ -64,12 +65,17 @@ After downloading, run this in PowerShell from the download folder:
 Get-FileHash .\LedCanvasSetup-v0.2.0-alpha.exe -Algorithm SHA256
 ```
 
-The expected hash will be listed in the matching release notes. If the hash does
-not match exactly, do not run the installer.
+Expected SHA256:
 
-## Current Alpha Checklist
+```text
+07DEC65A23D84EBD8C6E7516B681C2446E2D206FC8D82ECBE8A05A7A826B14A6
+```
 
-The preparation checklist for the first alpha is here:
+If the hash does not match exactly, do not run the installer.
+
+## Current Alpha Release Checklist
+
+The release checklist for the first alpha is here:
 
 - [v0.2.0-alpha checklist](releases/v0.2.0-alpha-checklist.md)
 
