@@ -35,7 +35,7 @@ This alpha does not include:
 ## Download
 
 Public installers are downloaded from the
-[Releases](https://github.com/VISDE/Led-Canvas-Releases/releases) page.
+[Releases](https://github.com/VISDE/LED_CANVAS/releases) page.
 
 The first public alpha is being prepared. Until `v0.2.0-alpha` appears in
 Releases with an attached `.exe` asset, there is no public installer download
